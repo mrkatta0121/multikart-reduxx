@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.special{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.special span{
+    text-align: center;
+}
+.special span h6{
+    font-size: 1.3rem;
+    color: darkturquoise;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.special span h1{
+    font-size: 2.5rem;
+}
+
+.special span hr{
+    width: 4.5rem;
+    height: .5rem;
+    border: none;
+    margin-left: 9rem;
+    background-color: rgb(95, 169, 243);
+}
+
+
+.specialproduct{
+    display: flex;
+    width: 40rem;
+    height: 30rem;
+    justify-content: center;
+}
+.specialproduct img{
+    width: 30rem;
+}
+
+
+
+
+.specialproduct h4{
+    color: darkturquoise;
+
+}
+.specialproduct h2{
+    font-size: 1rem;
+}
+.specialproduct p{
+    font-size: .9rem;
+    font-weight: lighter;
+}

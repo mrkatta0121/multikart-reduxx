@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.sideicon {
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    /* width: 2.9rem; */
+    top: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.sideicon p {
+    width: 2.8rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: .5rem 0 0 .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+}
+
+.sideicon span {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+.side,
+.sidee {
+    font-size: 1.4rem;
+}
+
+
+
+
+
+.sidee {
+    animation: rotatee 2s infinite linear;
+
+}
+
+@keyframes rotatee {
+    0% {
+        transform: rotate(0);
+       
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}

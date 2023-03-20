@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.instagram{
+    width: 100%;
+    height: 65vh;
+    background-image: url("https://multikart-react.vercel.app/assets/images/parallax/26.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.insta{
+    width: 100%;
+    display: flex;
+justify-content: center;
+}
+
+.insta img{
+    width: 17rem;
+    height: 17rem;
+}
